@@ -1,3 +1,3 @@
 # Hello C++
 
-<https://earthly.dev/blog/using-cmake/>
+- <https://earthly.dev/blog/using-cmake/>
