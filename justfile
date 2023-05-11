@@ -3,4 +3,4 @@ list:
     just -l
 
 build:
-    cmake -B build
+    cmake -S . -B build
