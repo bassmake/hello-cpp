@@ -1,11 +1,11 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.26)
 
 project(CMakeTutorial
     VERSION 1.0
     DESCRIPTION "A CMake Tutorial"
     LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 
 include(FetchContent)
 FetchContent_Declare(
@@ -16,15 +16,14 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-# add_executable(add
-#     src/main.cpp
-#     src/add.cpp)
+add_executable(add
+    src/main.cpp
+    src/add.cpp)
 
 enable_testing()
 
-add_executable(
-  hello_test
-  hello_test.cc
+add_executable(hello_test
+  src/hello_test.cpp
 )
 target_link_libraries(
   hello_test
