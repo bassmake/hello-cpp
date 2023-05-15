@@ -2,6 +2,9 @@
 list:
     just -l
 
+hello-world-build:
+    bazel build //main:hello-world
+
 build:
     cmake -S . -B build
     cmake --build build
