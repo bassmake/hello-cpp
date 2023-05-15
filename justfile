@@ -2,6 +2,7 @@
 list:
     just -l
 
+
 hello-world-build:
     bazel build //main:hello-world
 
