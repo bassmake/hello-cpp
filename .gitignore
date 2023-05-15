@@ -6,3 +6,4 @@ bazel-*
 *.dSYM
 build/
 cmake-build-debug/
+.clwb/
