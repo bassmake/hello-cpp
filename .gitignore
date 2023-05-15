@@ -2,3 +2,4 @@
 .idea/
 *.dSYM
 build/
+cmake-build-debug/
