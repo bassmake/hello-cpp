@@ -1,5 +1,8 @@
+*~
+bazel-*
 .git/
 .idea/
+.vscode/
 *.dSYM
 build/
 cmake-build-debug/
